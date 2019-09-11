@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<bean id ="driverSignUpController" class="com.rab3.controllers.DriverSignUpController" >
+<property name="driverSignUpService" ref="driverSignUpService"></property>
+</bean>
+
+<bean id="driverSignUpService" class ="com.rab3.services.DriverSignUpService"></bean>
+
+
+
+
+</beans>
