@@ -2,15 +2,14 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.rab3.lyft</groupId>
-	<artifactId>Application</artifactId>
+	<groupId>com.prakash</groupId>
+	<artifactId>test-lyft-app</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Application Maven Webapp</name>
+	<name>test-lyft-app Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
-
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
@@ -38,10 +37,14 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>5.3.1.Final</version>
 		</dependency>
-		
-
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.3</version>
+		</dependency>
 	</dependencies>
 	<build>
-		<finalName>Application</finalName>
+		<finalName>test-lyft-app</finalName>
 	</build>
 </project>
